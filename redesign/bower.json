@@ -1,0 +1,9 @@
+{
+  "name": "package",
+  "version": "0.0.7",
+  "dependencies": {
+    "reset-css": "~2.0.20110126"
+    
+    
+  }
+}
