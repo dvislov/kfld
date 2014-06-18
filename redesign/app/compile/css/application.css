@@ -1,5 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,cyrillic-ext,latin-ext);
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 html {
   position: relative;
   min-height: 100%;
