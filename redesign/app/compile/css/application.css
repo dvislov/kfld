@@ -30,3 +30,25 @@ body {
   font: 14px/24px Arial;
   color: black;
 }
+
+.header {
+  background: #445893;
+  font-family: "Roboto";
+  font-weight: 300;
+  color: #dedede;
+}
+
+.name-big {
+  font-size: 30px;
+  line-height: 30px;
+  padding: 20px 0 4px;
+}
+
+.name-small {
+  font-size: 18px;
+  padding-bottom: 19px;
+}
+
+.visual {
+  display: block;
+}
