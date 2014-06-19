@@ -9,7 +9,9 @@ strong, b
 $east_bay: #445893
 $alto: #dedede
 $silver: #ccc
+$gallery: #eee
 $midnight_blue: #003366
+$white: #fff
 
 html
   position: relative
@@ -101,6 +103,21 @@ body
   iframe
     width: 100%
     max-width: 100%
+
+  table
+    margin-bottom: 40px
+    line-height: 18px
+    tr:nth-child(2n+1)
+      background: $gallery
+    th
+      background: $east_bay
+      color: $white
+      text-align: left
+      text-transform: uppercase
+      padding: 14px 10px
+    td
+      padding: 10px
+
 
 .news-list
   margin-bottom: 40px
