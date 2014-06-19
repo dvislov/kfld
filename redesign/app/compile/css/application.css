@@ -140,6 +140,11 @@ body {
   margin-bottom: 6px;
 }
 
+.content iframe {
+  width: 100%;
+  max-width: 100%;
+}
+
 .news-list {
   margin-bottom: 40px;
 }
