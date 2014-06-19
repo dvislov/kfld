@@ -58,3 +58,20 @@ body {
 .visual {
   display: block;
 }
+
+.main-menu {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.main-menu li {
+  font-size: 16px;
+  line-height: 18px;
+  padding: 10px 0;
+  border-bottom: 1px dotted #cccccc;
+}
+
+.main-menu a {
+  color: #003366;
+  text-decoration: none;
+}
