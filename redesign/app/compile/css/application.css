@@ -143,6 +143,7 @@ body {
 .content iframe {
   width: 100%;
   max-width: 100%;
+  margin-bottom: 40px;
 }
 
 .content table {
@@ -183,6 +184,24 @@ body {
 
 .news-item-header {
   margin-bottom: 4px;
+}
+
+.person-list {
+  margin-bottom: 40px;
+}
+
+.person-item {
+  margin-bottom: 28px;
+}
+
+.person-item img {
+  margin-bottom: 10px;
+}
+
+.person-info p {
+  text-align: center;
+  margin-bottom: 16px;
+  line-height: 18px;
 }
 
 .photoalbum {
