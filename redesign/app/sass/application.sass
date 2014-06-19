@@ -3,6 +3,9 @@
 *
   box-sizing: border-box
 
+strong, b
+  font-weight: bold
+
 $east_bay: #445893
 $alto: #dedede
 $silver: #ccc
@@ -74,3 +77,25 @@ body
     margin-bottom: 18px
   p
     margin-bottom: 28px
+  p + ul,
+  p + ol
+    margin-top: -22px
+  ul
+    margin-bottom: 28px
+    li
+      position: relative
+      padding-left: 46px
+      margin-bottom: 6px
+      &:before
+        content: "—"
+        position: absolute
+        width: 40px
+        left: 0
+        text-align: right
+  ol
+    margin-bottom: 28px
+    padding-left: 46px
+    list-style-type: decimal
+    li
+      margin-bottom: 6px
+

@@ -1,9 +1,16 @@
+@charset "UTF-8";
+
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,cyrillic-ext,latin-ext);
 
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+strong,
+b {
+  font-weight: bold;
 }
 
 html {
@@ -98,4 +105,37 @@ body {
 
 .content p {
   margin-bottom: 28px;
+}
+
+.content p + ul,
+.content p + ol {
+  margin-top: -22px;
+}
+
+.content ul {
+  margin-bottom: 28px;
+}
+
+.content ul li {
+  position: relative;
+  padding-left: 46px;
+  margin-bottom: 6px;
+}
+
+.content ul li:before {
+  content: "—";
+  position: absolute;
+  width: 40px;
+  left: 0;
+  text-align: right;
+}
+
+.content ol {
+  margin-bottom: 28px;
+  padding-left: 46px;
+  list-style-type: decimal;
+}
+
+.content ol li {
+  margin-bottom: 6px;
 }
